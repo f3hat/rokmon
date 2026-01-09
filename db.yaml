@@ -1,0 +1,71 @@
+- Info:
+    Primary:
+      Id: 1002
+      Aegis: PORING
+      Name: Poring
+      Hp: 55
+      Level: 1
+      Exp:
+        Base: 150
+        Job: 40
+    Secondary:
+      Category: Normal
+      Size: Medium
+      Race: Plant
+      Element:
+        Type: Water
+        Level: 1
+      Status:
+        Atk:
+          Min: 0
+          Max: 1
+        Def: 2
+        Mdef: 5
+        Attributes:
+          Str: 6
+          Agi: 1
+          Vit: 1
+          Int: 0
+          Dex: 6
+          Luk: 5
+  AdditionalInfo:
+    Primary:
+      Drop:
+      - Item:
+          Id: 1202
+          Name: Knife
+      - Item:
+          Id: 4001
+          Name: Poring Card
+      - Item:
+          Id: 512
+          Name: Apple
+      - Item:
+          Id: 601
+          Name: Fly Wing
+      - Item:
+          Id: 619
+          Name: Unripe Apple
+      - Item:
+          Id: 909
+          Name: Jellopy
+      - Item:
+          Id: 938
+          Name: Sticky Mucus
+      Spawn:
+      - gef_fild00
+      - gef_fild07
+      - pay_fild01
+      - pay_fild03
+      - pay_fild04
+      - prt_fild01
+      - prt_fild06
+      - prt_fild08
+      - prt_maze01
+      - xmas_dun01
+    Secondary:
+      Range:
+        Attack: 1
+        Skill: 10
+        Chase: 12
+      Movement: 400
